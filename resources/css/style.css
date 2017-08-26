@@ -1,0 +1,61 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: helvetica, sans-serif;
+}
+
+div {
+  display: block;
+}
+
+body {
+  padding-top: 1rem;
+}
+
+.site-width {
+  max-width: 960px;
+}
+
+.fluid {
+  width: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*————— Nav Bar —————*/
+/*Row*/
+nav {
+  background-color: cadetblue;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  color: white;
+}
+
+/*Columns*/
+.logo {
+  float: left;
+}
+
+.logo img {
+  height: 1.5rem;
+}
+
+.name {
+  margin-left: 1rem;
+}
+
+.links {
+  float: right;
+}
+
+.links li {
+  display: inline;
+  margin-left: 2rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
