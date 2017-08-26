@@ -59,3 +59,10 @@ nav {
   text-decoration: none;
   color: white;
 }
+
+nav li:hover {
+  border-bottom: white solid 7px;
+  padding-bottom: 1.2rem;
+  font-weight: bold;
+  font-size: .93rem;
+}
